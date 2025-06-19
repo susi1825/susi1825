@@ -1,0 +1,43 @@
+.recuadro {
+  margin: 0 auto;
+    max-width: 150%;
+  border: 5px solid black;
+  padding: 20px;
+  background:#1F618D;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+text-align: center;
+}
+
+
+body {
+    background-color:#A9CCE3;  /* color de fondo, puedes cambiar el código según tus preferencias */
+    color: #333;  /* color del texto */
+    font-family: Arial, sans-serif;  /* fuente */
+    margin: 20px;
+    padding: 20px;
+}
+
+.carrusel {
+  width: 500px;
+  overflow: hidden;
+  border: 5px solid black;
+}
+
+.carrusel {
+  display: flex;
+  width: 200%;
+  animation: desplazar 10s linear infinite;
+}
+
+.carrusel .imagen img {
+  width: 400px;
+  height: 400px;
+  display: block;
+}
+
+@keyframes desplazar {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

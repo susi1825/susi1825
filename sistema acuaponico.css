@@ -1,0 +1,24 @@
+.cuadro {
+    border: 2px solid  
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    background-color:cadetblue;
+    border-radius: 10px;
+    font-family: arial, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+body {
+    background-color:#ABEBC6;
+    color:black;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+.cuadro {
+    border: 2px solid black; 
+    padding: 15px;
+    margin: 20px auto;
+    width: 80%;
+    background-color:cadetblue;
+    border-radius: 10px;
+    font-family: arial, sans-serif;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+    
+ .cuadro-contactos {
+     text-align: center;
+            border:3px solid #444;
+     padding: 20px;
+     margin:20px auto;
+     width: 400px;
+     background-color:azure;
+     border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+     
+}
+
+h5{
+     color: black;
+    font-size: 28px;
+    text-align: center;
+}
+
+body {
+    background-color:darkgrey;
+    color:black;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
